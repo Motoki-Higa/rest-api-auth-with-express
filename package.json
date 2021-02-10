@@ -15,8 +15,11 @@
     "eslint-plugin-import": "^2.14.0"
   },
   "dependencies": {
+    "bcrypt": "^5.0.0",
+    "bcryptjs": "^2.4.3",
     "express": "^4.16.4",
     "express-validator": "^6.9.2",
+    "js": "^0.1.0",
     "morgan": "^1.9.1"
   }
 }

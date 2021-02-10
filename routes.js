@@ -2,6 +2,7 @@
 
 const express = require('express');
 const { check, validationResult } = require('express-validator');
+const bcryptjs = require('bcryptjs');
 
 // This array is used to keep track of user records
 // as they created.
@@ -41,6 +42,9 @@ router.post('/users', [
 
     // Get the user from the request body
     const user = req.body;
+
+    // Hash the new user's password
+    user.password = bcryptjs.hashSync(user.password);
 
     // Add the user to the 'users' array.
     users.push(user);
