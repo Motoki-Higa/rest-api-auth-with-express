@@ -3,6 +3,8 @@
 This is a backend (REST) only app to experiment authentication with express.
 No database is used, so registered users will be stored in javascript array for the project.
 
+__Note:__ This project is created by following [Treehouse's tutorial](https://teamtreehouse.com/library/rest-api-authentication-with-express).
+
 ## Getting Started
 
 These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
